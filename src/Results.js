@@ -53,6 +53,7 @@ class Results extends React.Component {
           return (
             <Pet
               key={pet.id}
+              id={pet.id}
               animal={pet.animal}
               name={pet.name}
               breed={breed}

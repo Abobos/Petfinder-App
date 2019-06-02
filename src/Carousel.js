@@ -1,14 +1,10 @@
 import React from "react";
 
 class Carousel extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      photos: [],
-      active: 0
-    };
-    this.handleIndexClick = this.handleIndexClick.bind(this);
-  }
+  state = {
+    photos: [],
+    active: 0
+  };
 
   static getDerivedStateFromProps({ media }) {
     let photos = [];
@@ -19,11 +15,11 @@ class Carousel extends React.Component {
     return { photos };
   }
 
-  handleIndexClick(event) {
+  handleIndexClick = event => {
     this.setState({
       active: +event.target.dataset.index
     });
-  }
+  };
 
   render() {
     const { photos, active } = this.state;

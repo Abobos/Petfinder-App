@@ -173,7 +173,7 @@ header {
 }
 
 #modal:empty {
-  display: none;
+  display: block;
 }
 
 #modal > div {

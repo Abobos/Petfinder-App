@@ -38,7 +38,6 @@ class SearchBox extends React.Component {
                   ))}
                 </select>
               </label>
-              cd lc
               <label htmlFor="breed">
                 Breed
                 <select

@@ -49197,7 +49197,7 @@ function (_React$Component) {
             key: animal,
             value: animal
           }, animal);
-        }))), "cd lc", _react.default.createElement("label", {
+        }))), _react.default.createElement("label", {
           htmlFor: "breed"
         }, "Breed", _react.default.createElement("select", {
           id: "breeds",
@@ -49735,7 +49735,7 @@ function (_React$Component) {
       return _react.default.createElement("div", {
         className: "search-route"
       }, _react.default.createElement(_SearchBox.default, {
-        search: this.handleSearchSubmit
+        searchs: this.handleSearchSubmit
       }));
     }
   }]);
@@ -49917,7 +49917,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50012" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50032" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

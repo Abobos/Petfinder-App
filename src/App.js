@@ -1,11 +1,11 @@
 import React from "react";
 import { render } from "react-dom";
-import Results from "./Results";
-import Details from "./Details";
+import Results from "./Results.jsx";
+import Details from "./Details.jsx";
 import { Router, Link } from "@reach/router";
 import pf from "petfinder-client";
 import { Provider } from "./SearchContext";
-import SearchParams from "./SearchParams";
+import SearchParams from "./SearchParams.jsx";
 
 const petfinder = pf({
   key: process.env.API_KEY,

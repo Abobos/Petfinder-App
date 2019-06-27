@@ -3,5 +3,4 @@ This repository comprises of all code snippets from the  "complete-intro-to-reac
 
 ## Acknowledgment
 
-
-** [Brian Holt](https://github.com/btholt) **
+* [Brian Holt](https://github.com/btholt)

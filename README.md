@@ -3,7 +3,7 @@ This is a web application that allows users to find pets available for adoption 
 
 ## Getting Started
 
-* Got to [Petfinder](https://www.petfinder.com/)
+* Goto [Petfinder](https://www.petfinder.com/)
 * Signup and obtain your API_SECRET and API_KEY
 
 ## Running the app

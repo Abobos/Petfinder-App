@@ -1,5 +1,5 @@
 # Petfinder-App
-This is a web application that allow users to find pets available for adoption based on desired location, animal, and breed. It is attributed to the exercise from Brian Holt's Complete Intro to React v4 course [Complete-Intro-to-React-v4](https://frontendmasters.com/courses/complete-react-v4/). 
+This is a web application that allow users to find pets available for adoption based on desired location, animal, and breed. It is attributed to the exercise from Brian Holt's [Complete-Intro-to-React-v4](https://frontendmasters.com/courses/complete-react-v4/). 
 
 ## Getting Started
 
